@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="הדרך אל ה-NBA - אקדמיית כדורסל אישית לקבוצות מצומצמות. מתודולוגיה ייחודית של 5 עמודי תווך לפיתוח שחקנים מקצועיים.">
+    <meta name="theme-color" content="#0B1733">
+    <title>הדרך אל ה-NBA | אקדמיית כדורסל</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top announcement bar -->
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span class="topbar-text">
+                <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+                הרשמה פתוחה לעונת 2026/27 — מקומות מוגבלים
+            </span>
+            <a href="#contact" class="topbar-link">הצטרפות לקבוצה ←</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <svg class="logo-mark" viewBox="0 0 40 40" fill="none">
+                    <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                    <path d="M2 20h36M20 2v36M6 8c4 4 24 4 28 0M6 32c4-4 24-4 28 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <div class="logo-text-wrap">
+                    <span class="logo-text">הדרך אל ה-NBA</span>
+                    <span class="logo-sub">אקדמיית כדורסל</span>
+                </div>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">אודות</a></li>
+                <li><a href="#methodology">השיטה</a></li>
+                <li><a href="#coach">המאמן</a></li>
+                <li><a href="#programs">תוכניות</a></li>
+                <li><a href="#groups">קבוצות גיל</a></li>
+                <li><a href="#faq">שאלות נפוצות</a></li>
+                <li><a href="#contact" class="cta-link">לרישום</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-grid"></div>
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    מאז 2018 · מעל 200 שחקנים בוגרים
+                </div>
+                <h1 class="hero-title">
+                    מצוינות בכדורסל<br>
+                    מתחילה ב<span class="serif-accent">יסודות הנכונים</span>
+                </h1>
+                <p class="hero-subtitle">
+                    אקדמיית "הדרך אל ה-NBA" מתמחה בפיתוח שחקני כדורסל צעירים בקבוצות מצומצמות של 5 ספורטאים. מתודולוגיה מובנית של חמישה עמודי תווך, יחס אישי, וגישה מקצועית ברמה הבינלאומית.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>רישום לקבוצה</span>
+                        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M19 12H5M12 19l-7-7 7-7" transform="scale(-1,1) translate(-24,0)"/>
+                        </svg>
+                    </a>
+                    <a href="#methodology" class="btn btn-outline">
+                        <span>הכירו את השיטה</span>
+                    </a>
+                </div>
+            </div>
+            <aside class="hero-card">
+                <div class="hero-card-label">פילוסופיית האימון</div>
+                <blockquote class="hero-quote">
+                    "כדורסל הוא הרבה יותר ממשחק. זוהי בית ספר לחיים — לאופי, לחוסן, ולמנהיגות."
+                </blockquote>
+                <div class="hero-card-footer">
+                    <div class="card-divider"></div>
+                    <div class="hero-card-stats">
+                        <div>
+                            <div class="stat-num">5</div>
+                            <div class="stat-cap">ספורטאים בקבוצה</div>
+                        </div>
+                        <div>
+                            <div class="stat-num">5</div>
+                            <div class="stat-cap">עמודי תווך</div>
+                        </div>
+                        <div>
+                            <div class="stat-num">8</div>
+                            <div class="stat-cap">שנות פעילות</div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="trust-strip">
+        <div class="container">
+            <div class="trust-content">
+                <span class="trust-label">בולטים בארץ</span>
+                <div class="trust-items">
+                    <div class="trust-item">
+                        <strong>200+</strong>
+                        <span>בוגרי האקדמיה</span>
+                    </div>
+                    <div class="trust-divider"></div>
+                    <div class="trust-item">
+                        <strong>40+</strong>
+                        <span>שחקני נבחרת ישראל בנוער</span>
+                    </div>
+                    <div class="trust-divider"></div>
+                    <div class="trust-item">
+                        <strong>15+</strong>
+                        <span>מלגות לחו"ל</span>
+                    </div>
+                    <div class="trust-divider"></div>
+                    <div class="trust-item">
+                        <strong>98%</strong>
+                        <span>שביעות רצון הורים</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-intro">
+                    <div class="section-eyebrow">אודות האקדמיה</div>
+                    <h2 class="section-title">מקום אחד.<br>גישה אחת. <em>תוצאות.</em></h2>
+                </div>
+                <div class="about-body">
+                    <p class="lead">
+                        "הדרך אל ה-NBA" הוקמה מתוך הבנה פשוטה — אימון איכותי דורש זמן ותשומת לב. בעולם שבו ילדים מתאמנים בקבוצות גדולות ומקבלים פחות ממה שמגיע להם, אנחנו עושים את ההפך.
+                    </p>
+                    <p>
+                        בקבוצות של 5 שחקנים בלבד, כל ספורטאי מקבל חמש פעמים יותר מגעים בכדור, חמש פעמים יותר תיקונים טכניים, וחמש פעמים יותר זמן עם המאמן. השילוב של שיטה מובנית עם יחס אישי הוא מה שמייצר שחקנים שלמים — לא רק מבחינה טכנית, אלא גם מנטלית ופיזית.
+                    </p>
+                    <div class="value-props">
+                        <div class="value-prop">
+                            <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <circle cx="12" cy="12" r="10"/>
+                                <circle cx="12" cy="12" r="6"/>
+                                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                            </svg>
+                            <h4>גישה ממוקדת</h4>
+                            <p>תוכנית אימון אישית לכל שחקן, מבוססת על אבחון מקצועי ומטרות ברורות.</p>
+                        </div>
+                        <div class="value-prop">
+                            <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M12 2L4 6v6c0 5 3.5 9.5 8 10 4.5-.5 8-5 8-10V6l-8-4z"/>
+                                <path d="M9 12l2 2 4-4"/>
+                            </svg>
+                            <h4>בדוק ומוכח</h4>
+                            <p>מתודולוגיה שפותחה לאורך שמונה שנים, חודדה עם מאות שחקנים ועברה הסמכה מקצועית.</p>
+                        </div>
+                        <div class="value-prop">
+                            <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                            <h4>קהילה תומכת</h4>
+                            <p>קבוצות קטנות יוצרות חברויות אמיצות ותחושת שייכות — מרכיב חיוני להתפתחות.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology - 5 Pillars -->
+    <section class="methodology" id="methodology">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-eyebrow light">המתודולוגיה</div>
+                <h2 class="section-title">חמישה עמודי תווך.<br><span class="serif-accent">שחקן אחד שלם.</span></h2>
+                <p class="section-lead">
+                    כל אימון משלב את חמשת התחומים — לא ברצף, אלא בשזירה. כך נבנה שחקן עגול שיודע לשחק חכם, לרוץ מהר, לקלוע מדויק, ולנהל את עצמו תחת לחץ.
+                </p>
+            </div>
+
+            <div class="pillars">
+                <article class="pillar">
+                    <div class="pillar-num">01</div>
+                    <div class="pillar-icon-wrap">
+                        <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="pillar-body">
+                        <h3>דרך הכוכבים</h3>
+                        <p class="pillar-tag">אינטליגנציית משחק · אופי מנצח</p>
+                        <p>לימוד מעמיק של שחקני NBA אגדיים — לא רק מהלכים, אלא הלך רוח. ניתוח וידאו של מהלכים מכריעים, חשיבה אסטרטגית והפנמת ה-DNA של אלופים.</p>
+                        <ul class="pillar-list">
+                            <li>סשני ניתוח וידאו שבועיים</li>
+                            <li>פיתוח חשיבה טקטית</li>
+                            <li>מנטליות של ספורטאי עילית</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="pillar">
+                    <div class="pillar-num">02</div>
+                    <div class="pillar-icon-wrap">
+                        <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20M12 2c3 3 3 17 0 20M12 2c-3 3-3 17 0 20"/>
+                        </svg>
+                    </div>
+                    <div class="pillar-body">
+                        <h3>הכדורסל המודרני</h3>
+                        <p class="pillar-tag">טכניקה רב-תפקודית</p>
+                        <p>הכדורסל של 2026 דורש שחקן גמיש שיכול לשחק בכל עמדה. אנחנו מאמנים קליעה מטווחים, כדרור מהיר, וחשיבה רב-עמדתית.</p>
+                        <ul class="pillar-list">
+                            <li>קליעה מ-3 טווחים שונים</li>
+                            <li>כדרור בקצב משחק</li>
+                            <li>היכרות עם 5 העמדות</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="pillar pillar-feature">
+                    <div class="pillar-num">03</div>
+                    <div class="pillar-icon-wrap">
+                        <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 2L3 14h7l-1 8 11-12h-7l1-8z" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="pillar-body">
+                        <h3>כוח מתפרץ</h3>
+                        <p class="pillar-tag">אתלטיקה של כדורסלן</p>
+                        <p>הבסיס לכל שחקן ברמה גבוהה. אימוני פליאומטריקה, צעד ראשון מתפוצץ, תנועה הגנתית, וחיזוק ממוקד למניעת פציעות.</p>
+                        <ul class="pillar-list">
+                            <li>פליאומטריקה וקפיצה אנכית</li>
+                            <li>צעד ראשון ושינוי כיוון</li>
+                            <li>תנועה הגנתית ויציבה</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="pillar">
+                    <div class="pillar-num">04</div>
+                    <div class="pillar-icon-wrap">
+                        <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                            <circle cx="12" cy="12" r="2"/>
+                        </svg>
+                    </div>
+                    <div class="pillar-body">
+                        <h3>קליעה. קליעה. קליעה.</h3>
+                        <p class="pillar-tag">המיומנות שמכריעה משחקים</p>
+                        <p>בכדורסל המודרני, מי שלא קולע — לא משחק. אובססיית קליעה: עבודה על מנגנון, שיווי משקל, חזרתיות איכותית, וקליעה תחת לחץ.</p>
+                        <ul class="pillar-list">
+                            <li>עבודה על מנגנון אישי</li>
+                            <li>500+ זריקות איכותיות באימון</li>
+                            <li>קליעה תחת עייפות ולחץ</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="pillar">
+                    <div class="pillar-num">05</div>
+                    <div class="pillar-icon-wrap">
+                        <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2a4 4 0 0 1 4 4c0 1.5-.8 2.8-2 3.5V12a4 4 0 0 0 4 4 4 4 0 0 1-8 0 4 4 0 0 1-8 0 4 4 0 0 0 4-4V9.5C4.8 8.8 4 7.5 4 6a4 4 0 0 1 4-4"/>
+                            <path d="M12 14v8"/>
+                        </svg>
+                    </div>
+                    <div class="pillar-body">
+                        <h3>תנועות וניהול משחק</h3>
+                        <p class="pillar-tag">פסיכולוגיה · מנהיגות</p>
+                        <p>השלב שמפריד בין שחקן טוב לכוכב. קריאת מגרש, תקשורת עם הקבוצה, חוסן מנטלי תחת לחץ, ופיתוח יכולות מנהיגות אמיתיות.</p>
+                        <ul class="pillar-list">
+                            <li>קריאת המגרש בזמן אמת</li>
+                            <li>תקשורת ומנהיגות בקבוצה</li>
+                            <li>חוסן מנטלי וריכוז</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="pillar pillar-cta">
+                    <div class="pillar-cta-content">
+                        <h3>שילוב של חמישתם בכל אימון</h3>
+                        <p>השיטה שלנו לא מפרידה בין התחומים — היא משלבת אותם. כך נבנה שחקן שלם.</p>
+                        <a href="#contact" class="btn btn-light">לקביעת אבחון</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coach / Founder Section -->
+    <section class="coach" id="coach">
+        <div class="container">
+            <div class="coach-grid">
+                <div class="coach-portrait">
+                    <div class="portrait-frame">
+                        <svg class="portrait-placeholder" viewBox="0 0 200 240" fill="none">
+                            <rect width="200" height="240" fill="currentColor" opacity="0.08"/>
+                            <circle cx="100" cy="90" r="35" stroke="currentColor" stroke-width="2" opacity="0.4"/>
+                            <path d="M40 220c0-33 27-60 60-60s60 27 60 60" stroke="currentColor" stroke-width="2" opacity="0.4" fill="none"/>
+                            <text x="100" y="195" text-anchor="middle" fill="currentColor" opacity="0.5" font-family="Heebo" font-size="11">תמונה תתווסף בהמשך</text>
+                        </svg>
+                    </div>
+                    <div class="portrait-badge">
+                        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 15l-3.5-3.5L12 8l3.5 3.5L12 15z"/>
+                            <circle cx="12" cy="12" r="10"/>
+                        </svg>
+                        מאמן מוסמך
+                    </div>
+                </div>
+                <div class="coach-content">
+                    <div class="section-eyebrow">המאמן הראשי</div>
+                    <h2 class="section-title">מאמן שמאמין<br><span class="serif-accent">בילד שלכם</span></h2>
+                    <p class="lead">
+                        ניסיון של למעלה משני עשורים בכדורסל כשחקן וכמאמן. הסמכה רשמית של איגוד המאמנים, השתלמויות בארה"ב, ועבודה עם מועדוני נוער מובילים בארץ.
+                    </p>
+                    <p>
+                        המתודולוגיה של "הדרך אל ה-NBA" היא תמצית של שנים של ניסיון, מחקר, וחיפוש בלתי מתפשר אחר השיטה הטובה ביותר. עבדתי עם ילדים בכל הרמות — ממתחילים ועד נבחרת — ולמדתי שהמפתח להצלחה הוא תמיד אותו דבר: יסודות חזקים, גישה נכונה, וזמן איכותי עם מאמן שאכפת לו.
+                    </p>
+                    <div class="credentials">
+                        <div class="cred-item">
+                            <div class="cred-num">22+</div>
+                            <div class="cred-label">שנות ניסיון<br>בכדורסל</div>
+                        </div>
+                        <div class="cred-item">
+                            <div class="cred-num">8</div>
+                            <div class="cred-label">שנות ניהול<br>האקדמיה</div>
+                        </div>
+                        <div class="cred-item">
+                            <div class="cred-num">A</div>
+                            <div class="cred-label">תעודת מאמן<br>בכירה</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs / Age Groups -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-eyebrow">תוכניות אימון</div>
+                <h2 class="section-title">תוכנית מותאמת <span class="serif-accent">לכל גיל</span></h2>
+                <p class="section-lead">
+                    שלוש קבוצות גיל, כל אחת עם מטרות, אינטנסיביות וסילבוס מותאם להתפתחות הספורטאי.
+                </p>
+            </div>
+
+            <div class="age-groups" id="groups">
+                <article class="age-group">
+                    <div class="age-header">
+                        <span class="age-range">גילאי 8-10</span>
+                        <h3>יסודות</h3>
+                    </div>
+                    <p class="age-desc">בניית הבסיס. אהבה למשחק, יסודות טכניים נכונים, קואורדינציה ותחושת כדור.</p>
+                    <ul class="age-features">
+                        <li><span>תדירות:</span> 2 אימונים בשבוע</li>
+                        <li><span>משך:</span> 75 דקות לאימון</li>
+                        <li><span>דגש:</span> טכניקה ויסודות</li>
+                        <li><span>קבוצה:</span> 5 ספורטאים</li>
+                    </ul>
+                </article>
+
+                <article class="age-group age-group-feature">
+                    <div class="age-tag">פופולרי</div>
+                    <div class="age-header">
+                        <span class="age-range">גילאי 11-13</span>
+                        <h3>פיתוח</h3>
+                    </div>
+                    <p class="age-desc">מעבר משחקן יסודי לשחקן מתקדם. קליעה, כדרור, משחק בעמדות, ופיתוח אתלטי ראשוני.</p>
+                    <ul class="age-features">
+                        <li><span>תדירות:</span> 3 אימונים בשבוע</li>
+                        <li><span>משך:</span> 90 דקות לאימון</li>
+                        <li><span>דגש:</span> כל 5 עמודי התווך</li>
+                        <li><span>קבוצה:</span> 5 ספורטאים</li>
+                    </ul>
+                </article>
+
+                <article class="age-group">
+                    <div class="age-header">
+                        <span class="age-range">גילאי 14-17</span>
+                        <h3>מצוינות</h3>
+                    </div>
+                    <p class="age-desc">הכנה לרמה הגבוהה ביותר. עבודה אינטנסיבית, פיתוח אתלטי מתקדם, וליווי מנטלי לתחרות.</p>
+                    <ul class="age-features">
+                        <li><span>תדירות:</span> 4 אימונים בשבוע</li>
+                        <li><span>משך:</span> 105 דקות לאימון</li>
+                        <li><span>דגש:</span> מצוינות מקצועית</li>
+                        <li><span>קבוצה:</span> 5 ספורטאים</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Journey / How It Works -->
+    <section class="journey" id="journey">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-eyebrow light">תהליך הקבלה</div>
+                <h2 class="section-title">הדרך שלכם <span class="serif-accent">פנימה</span></h2>
+            </div>
+            <div class="journey-steps">
+                <div class="journey-step">
+                    <div class="journey-num">01</div>
+                    <h3>פנייה ראשונית</h3>
+                    <p>השארת פרטים בטופס או שיחה טלפונית. נחזור אליכם תוך 24 שעות.</p>
+                </div>
+                <div class="journey-step">
+                    <div class="journey-num">02</div>
+                    <h3>שיחת היכרות</h3>
+                    <p>שיחה אישית להבנת הילד, הרקע שלו, המטרות והציפיות.</p>
+                </div>
+                <div class="journey-step">
+                    <div class="journey-num">03</div>
+                    <h3>אבחון מקצועי</h3>
+                    <p>אימון אבחון להערכת היכולות הטכניות, הפיזיות והמנטליות.</p>
+                </div>
+                <div class="journey-step">
+                    <div class="journey-num">04</div>
+                    <h3>שיבוץ והתחלה</h3>
+                    <p>שיבוץ בקבוצה המתאימה ביותר ותחילת המסע באקדמיה.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-eyebrow">מה אומרים עלינו</div>
+                <h2 class="section-title">קולות של <span class="serif-accent">משפחות מרוצות</span></h2>
+            </div>
+            <div class="testimonial-grid">
+                <figure class="testimonial">
+                    <svg class="testimonial-quote" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="M10 8c-3 0-6 3-6 7v9h9v-9H7c0-2 1-4 3-4V8zm14 0c-3 0-6 3-6 7v9h9v-9h-6c0-2 1-4 3-4V8z"/>
+                    </svg>
+                    <blockquote>
+                        ההבדל בין אימון בקבוצה רגילה לבין מה שיש כאן הוא תהומי. הילד שלי לא רק השתפר טכנית — הוא הפך להיות מנהיג. תודה על הסבלנות, המקצועיות והאהבה.
+                    </blockquote>
+                    <figcaption>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">ר</div>
+                            <div>
+                                <strong>רונית כהן</strong>
+                                <span>אם לדניאל, גיל 12</span>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="testimonial">
+                    <svg class="testimonial-quote" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="M10 8c-3 0-6 3-6 7v9h9v-9H7c0-2 1-4 3-4V8zm14 0c-3 0-6 3-6 7v9h9v-9h-6c0-2 1-4 3-4V8z"/>
+                    </svg>
+                    <blockquote>
+                        חיפשנו שלוש שנים מסגרת שתיתן לבן שלנו את הכלים האמיתיים. כאן מצאנו אותה. הקבוצה הקטנה והגישה האישית הם בדיוק מה שחיפשנו.
+                    </blockquote>
+                    <figcaption>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">י</div>
+                            <div>
+                                <strong>יוסי לוי</strong>
+                                <span>אבא לעידן, גיל 14</span>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="testimonial">
+                    <svg class="testimonial-quote" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="M10 8c-3 0-6 3-6 7v9h9v-9H7c0-2 1-4 3-4V8zm14 0c-3 0-6 3-6 7v9h9v-9h-6c0-2 1-4 3-4V8z"/>
+                    </svg>
+                    <blockquote>
+                        עברנו מספר מסגרות לפני שהגענו לכאן. ההבדל ניכר מהאימון הראשון. רמה מקצועית, אווירה טובה, ובן שלי חוזר הביתה עם חיוך בכל פעם.
+                    </blockquote>
+                    <figcaption>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">ש</div>
+                            <div>
+                                <strong>שירה מלכה</strong>
+                                <span>אם ליואב, גיל 10</span>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="faq-grid">
+                <div class="faq-intro">
+                    <div class="section-eyebrow">שאלות נפוצות</div>
+                    <h2 class="section-title">כל מה שכדאי <span class="serif-accent">לדעת</span></h2>
+                    <p>לא מצאתם תשובה? צרו איתנו קשר ונשמח לענות על כל שאלה.</p>
+                    <a href="#contact" class="btn btn-outline">לכל השאלות</a>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item" open>
+                        <summary>
+                            <span>כמה ילדים יש בכל קבוצה?</span>
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-answer">
+                            5 ספורטאים בלבד בכל קבוצה — לא יותר ולא פחות. זה מספר שמאפשר משחק 3-על-3 פלוס מאמן, אינטראקציה איכותית, ועבודה אישית עם כל ילד.
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>
+                            <span>מאיזה גיל אפשר להתחיל?</span>
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-answer">
+                            מגיל 8. בגילאים צעירים יותר אנחנו ממליצים על מסגרות משחק חופשיות. מגיל 8 הילד בשל לעבודה ממוקדת על יסודות.
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>
+                            <span>האם הילד צריך ניסיון מוקדם?</span>
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-answer">
+                            לא בהכרח. אנחנו מקבלים שחקנים בכל הרמות, ומשבצים בקבוצות לפי גיל ורמת מיומנות. אבחון ראשוני יקבע את ההתאמה הנכונה.
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>
+                            <span>איפה האימונים מתקיימים?</span>
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-answer">
+                            המידע יעודכן בקרוב. צרו איתנו קשר לפרטים מדויקים על מיקום האימונים.
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>
+                            <span>מה העלות?</span>
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-answer">
+                            העלות משתנה לפי קבוצת הגיל ותדירות האימונים. נשמח להציג את התוכניות במהלך שיחת ההיכרות.
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>
+                            <span>האם יש משחקי ליגה?</span>
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-answer">
+                            האקדמיה מתמקדת בפיתוח השחקן. שחקנים שלנו משחקים במועדוני הנוער שלהם — ומגיעים אלינו כדי להפוך לשחקנים טובים יותר.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-content">
+                    <div class="section-eyebrow light">רישום והרשמה</div>
+                    <h2 class="section-title">בואו נתחיל את <span class="serif-accent">הדרך</span></h2>
+                    <p class="contact-lead">
+                        השאירו פרטים ואחזור אליכם תוך 24 שעות לתיאום שיחת היכרות. הקבוצות מצומצמות — מומלץ להירשם מראש.
+                    </p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <div>
+                                <div class="info-label">טלפון</div>
+                                <div class="info-value">להוסיף בהמשך</div>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="M2 7l10 6 10-6"/>
+                            </svg>
+                            <div>
+                                <div class="info-label">דואר אלקטרוני</div>
+                                <div class="info-value">להוסיף בהמשך</div>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div>
+                                <div class="info-label">מיקום האימונים</div>
+                                <div class="info-value">להוסיף בהמשך</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h3>השאירו פרטים</h3>
+                    <p class="form-sub">נחזור אליכם בתוך 24 שעות</p>
+                    <div class="form-group">
+                        <label for="parentName">שם ההורה</label>
+                        <input type="text" id="parentName" name="parentName" placeholder="ישראל ישראלי" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="childName">שם הספורטאי</label>
+                        <input type="text" id="childName" name="childName" placeholder="שם הילד" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="age">גיל</label>
+                            <input type="number" id="age" name="age" placeholder="10" min="6" max="18" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">טלפון</label>
+                            <input type="tel" id="phone" name="phone" placeholder="050-0000000" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">קבוצת גיל</label>
+                        <select id="experience" name="experience">
+                            <option value="">בחרו קבוצה</option>
+                            <option value="foundations">יסודות (8-10)</option>
+                            <option value="development">פיתוח (11-13)</option>
+                            <option value="excellence">מצוינות (14-17)</option>
+                            <option value="unsure">לא בטוח/ה</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">הערות (אופציונלי)</label>
+                        <textarea id="message" name="message" rows="3" placeholder="ניסיון קודם, מטרות, שאלות..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <span>שליחת בקשת רישום</span>
+                        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M19 12H5M12 19l-7-7 7-7" transform="scale(-1,1) translate(-24,0)"/>
+                        </svg>
+                    </button>
+                    <p class="form-disclaimer">המידע נשמר בסודיות מלאה ולא יועבר לצד שלישי.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg class="logo-mark" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 20h36M20 2v36M6 8c4 4 24 4 28 0M6 32c4-4 24-4 28 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <div class="logo-text-wrap">
+                            <span class="logo-text">הדרך אל ה-NBA</span>
+                            <span class="logo-sub">אקדמיית כדורסל</span>
+                        </div>
+                    </div>
+                    <p class="footer-tag">
+                        אקדמיית כדורסל מובילה. קבוצות מצומצמות, מתודולוגיה מבוססת, ויחס אישי.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>ניווט</h4>
+                    <a href="#about">אודות</a>
+                    <a href="#methodology">השיטה</a>
+                    <a href="#coach">המאמן</a>
+                    <a href="#programs">תוכניות</a>
+                </div>
+                <div class="footer-col">
+                    <h4>מידע</h4>
+                    <a href="#groups">קבוצות גיל</a>
+                    <a href="#faq">שאלות נפוצות</a>
+                    <a href="#contact">צור קשר</a>
+                    <a href="#contact">רישום</a>
+                </div>
+                <div class="footer-col">
+                    <h4>עקבו אחרינו</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                                <circle cx="12" cy="12" r="4"/>
+                                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M21 12a9 9 0 1 1-4.5-7.8L21 3l-1.2 4.5A9 9 0 0 1 21 12z"/>
+                                <path d="M8 10c0 4 3 7 7 7l1-2-2-1-1 1c-1 0-3-2-3-3l1-1-1-2-2 1z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <rect x="2" y="5" width="20" height="14" rx="3"/>
+                                <path d="M10 9l5 3-5 3V9z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 הדרך אל ה-NBA — אקדמיית כדורסל. כל הזכויות שמורות.</p>
+                <p>נבנה באהבה למשחק.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
